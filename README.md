@@ -66,4 +66,6 @@ Na conta do **Azure Storage**, no painel à esquerda selecione `Configuração` 
 ## 2. Extrair dados de um *datasource*
 Inicialmente você precisa importar os `datasets`. Vamos usar os arquivos disponíveis em `https://aka.ms/mslearn-coffee-reviews`, baixar e importar os dados no [Portal da Azure](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true).
 
-
+| Carregando Dados para Processamento 1 | Carregando Dados para Processamento 2 |                      
+| ----------------------------------- | ----------------------------------- |
+| <img src="utils/search8.jpeg" alt="Recurso AI Search"/> | <img src="utils/search81.jpeg" alt="Recurso AI Search"/>
