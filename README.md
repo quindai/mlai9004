@@ -79,6 +79,15 @@ Precisamos preparar os documentos para processamento. O portal do Azure fornece 
 | ----------------------------------- | ----------------------------------- |
 | <img src="utils/search11.jpeg" alt="Recurso AI Search"/> | <img src="utils/search111.jpeg" alt="Recurso AI Search"/>
 
+Irá abrir a tela de `Containers`, selecione o recurso criado e inicie o processo de importação de ´BLOBs` para processamento.
+| Tela de Seleção do Recurso | Tela `Connect to your data` preencha os campos como o print abaixo |  Tela `Add Cognitive skills` preencha os 3 itens abaixo |                    
+| ----------------------------------- | ----------------------------------- | ----------------------------------- |
+| <img src="utils/search12.jpeg" alt="Recurso AI Search"/> | <img src="utils/search13.jpeg" alt="Recurso AI Search"/> | <img src="utils/search131.jpeg" alt="Recurso AI Search"/>
+
+| Tela `Attach AI Services` | Tela `Add enrichments` |  Tela `Add enrichments` detalhes com mensagem de `Warning`| Selecione a opção marcada para remover o `Warning` |                   
+| ----------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- |
+| <img src="utils/search14.jpeg" alt="Recurso AI Search"/> | <img src="utils/search141.jpeg" alt="Recurso AI Search"/> | <img src="utils/search142.jpeg" alt="Recurso AI Search"/> | <img src="utils/search143.jpeg" alt="Recurso AI Search"/> |
+
 
 
 Após o carregamento dos documentos, podemos dar início ao processamento com o `Azure AI Search` para extrair *insights* dos documentos.
