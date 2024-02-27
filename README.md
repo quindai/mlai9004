@@ -62,3 +62,5 @@ Na conta do **Azure Storage**, no painel à esquerda selecione `Configuração` 
 | Ativando o acesso à BLOB | Ativando o acesso à BLOB |                      
 | ----------------------------------- | ----------------------------------- |
 | <img src="utils/search7.jpeg" alt="Recurso AI Search"/> | <img src="utils/search71.jpeg" alt="Recurso AI Search"/>
+
+## 2. Extrair dados de um *datasource*
