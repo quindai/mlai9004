@@ -47,3 +47,5 @@ Os SLAs são elaborados com base nas necessidades e expectativas do cliente e se
 * Compensação e penalidades: Especificam quaisquer compensações ou penalidades que serão aplicadas caso o provedor de serviço não cumpra os níveis de serviço acordados.
 
 Os SLAs são fundamentais para estabelecer expectativas claras, garantir a qualidade do serviço e promover a transparência e a confiança entre o provedor de serviço e o cliente. Eles são comumente usados em uma variedade de setores, incluindo tecnologia da informação, telecomunicações, serviços financeiros e muito mais.
+
+:rotating_light: **Importante:** Você precisa provisionar o `Azure AI Services` na mesma localização que o recurso `Azure AI Search` para funcionar.
