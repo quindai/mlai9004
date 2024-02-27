@@ -74,6 +74,13 @@ Inicialmente você precisa importar os `datasets`. Vamos usar os arquivos dispon
 | ----------------------------------- | ----------------------------------- |
 | <img src="utils/search9.jpeg" alt="Recurso AI Search"/> | <img src="utils/search10.jpeg" alt="Recurso AI Search"/>
 
+Precisamos preparar os documentos para processamento. O portal do Azure fornece um assistente de importação de dados. Com este assistente, você pode criar automaticamente um índice e um indexador para fontes de dados suportadas. Você usará o assistente para criar um índice e importar seus documentos de pesquisa do armazenamento para o índice do Azure AI Search.
+| Navegue até o Azure AI Search como na Imagem | Em `Datasource` selecione a opção `Azure Blob Storage` |                      
+| ----------------------------------- | ----------------------------------- |
+| <img src="utils/search11.jpeg" alt="Recurso AI Search"/> | <img src="utils/search111.jpeg" alt="Recurso AI Search"/>
+
+
+
 Após o carregamento dos documentos, podemos dar início ao processamento com o `Azure AI Search` para extrair *insights* dos documentos.
 
 
