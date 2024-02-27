@@ -56,6 +56,9 @@ Os SLAs são fundamentais para estabelecer expectativas claras, garantir a quali
 
 | Criando o Serviço de Azure Storage | Revisar e criar o recurso |                           
 | ----------------------------------- | ----------------------------------- |
-| <img src="utils/search6.jpeg" alt="Recurso AI Search"/> | <img src="utils/search61.jpeg" alt="Recurso AI Search"/> |
+| <img src="utils/search6.jpeg" alt="Recurso AI Search"/> | <img src="utils/search61.png" alt="Recurso AI Search"/> |
 
-
+Na conta do **Azure Storage**, no painel à esquerda selecione `Configuração` no menu `Definições`, mude para `Allow Blob anonymous access` e salve.
+| Ativando o acesso à BLOB |                       
+| ----------------------------------- |
+| <img src="utils/search7.jpeg" alt="Recurso AI Search"/> |
