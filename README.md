@@ -59,8 +59,11 @@ Os SLAs são fundamentais para estabelecer expectativas claras, garantir a quali
 | <img src="utils/search6.jpeg" alt="Recurso AI Search"/> | <img src="utils/search61.png" alt="Recurso AI Search"/> |
 
 Na conta do **Azure Storage**, no painel à esquerda selecione `Configuração` no menu `Definições`, mude para `Allow Blob anonymous access` e salve.
-| Ativando o acesso à BLOB | Ativando o acesso à BLOB |                      
+| Ativando o acesso à BLOB 1 | Ativando o acesso à BLOB 2 |                      
 | ----------------------------------- | ----------------------------------- |
 | <img src="utils/search7.jpeg" alt="Recurso AI Search"/> | <img src="utils/search71.jpeg" alt="Recurso AI Search"/>
 
 ## 2. Extrair dados de um *datasource*
+Inicialmente você precisa importar os `datasets`. Vamos usar os arquivos disponíveis em `https://aka.ms/mslearn-coffee-reviews`, baixar e importar os dados no [Portal da Azure](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true).
+
+
