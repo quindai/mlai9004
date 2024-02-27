@@ -9,3 +9,6 @@ Aqui iremos fazer o seguinte:
 5. Realizar busca no indexer criado
 6. Revisar os resultados armazenados numa loja de Conhecimento
 
+Os serviços que precisamos para realizar essa tarefa são o **Azure AI Search** para gerenciar a indexação e buscas, o **Azure AI Services** para consumir os serviços de IA que vão enriquecer os dados e o **Storage Account** que será o nosso *container* de documentos.
+
+## 1. Criar um recurso Azure
