@@ -3,7 +3,7 @@ Vamos explorar o serviço Azure AI Search index (UI) num caso de uso através de
 
 Aqui iremos fazer o seguinte:
 1. [Criar um recurso Azure](#1-criar-um-recurso-azure)
-2. Extrair dados de um *datasource*
+2. [Extrair dados de um *datasource*](#2-extrair-dados-de-um-datasource)
 3. Enriquecer os dados com habilidades de IA
 4. Usar o indexer do Azure no portal Azure
 5. Realizar busca no indexer criado
@@ -69,3 +69,7 @@ Inicialmente você precisa importar os `datasets`. Vamos usar os arquivos dispon
 | Carregando Dados para Processamento 1 | Carregando Dados para Processamento 2 |                      
 | ----------------------------------- | ----------------------------------- |
 | <img src="utils/search8.jpeg" alt="Recurso AI Search"/> | <img src="utils/search81.jpeg" alt="Recurso AI Search"/>
+
+| Carregando Dados para Processamento 3 | Carregando Dados para Processamento 4 |                      
+| ----------------------------------- | ----------------------------------- |
+| <img src="utils/search9.jpeg" alt="Recurso AI Search"/> | <img src="utils/search10.jpeg" alt="Recurso AI Search"/>
