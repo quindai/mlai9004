@@ -88,7 +88,27 @@ Irá abrir a tela de `Containers`, selecione o recurso criado e inicie o process
 | ----------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- |
 | <img src="utils/search14.jpeg" alt="Recurso AI Search"/> | <img src="utils/search141.jpeg" alt="Recurso AI Search"/> | <img src="utils/search142.jpeg" alt="Recurso AI Search"/> | <img src="utils/search143.jpeg" alt="Recurso AI Search"/> |
 
+Selecione **Azure blob projections: Document**. Uma configuração para o nome do container com as exibições preenchidas automaticamente do container de armazenamento de conhecimento. Não altere o nome do container.
+| `Azure blob projections` |                       
+| ----------------------------------- |
+| <img src="utils/search15.jpeg" alt="Recurso AI Search"/> |
 
+Selecione Próximo: Personalizar índice de destino. Altere o nome do índice para `coffee-index`.
+
+Certifique-se de que a chave esteja definida como metadata_storage_path. Deixe o nome do sugeridor em branco e o modo de pesquisa preenchido automaticamente.
+| Personalizando o índice de destino |                       
+| ----------------------------------- |
+| <img src="utils/search16.jpeg" alt="Recurso AI Search"/> |
+
+Selecione Enviar para criar o `data source` , o conjunto de habilidades, o `index` e o `indexer`. O indexador é executado automaticamente e executa o pipeline de indexação, que:
+* Extrai os campos de metadados do documento e o conteúdo da fonte de dados.
+* Executa o conjunto de habilidades cognitivas para gerar campos mais enriquecidos.
+* Mapeia os campos extraídos para o índice.
+
+Volte à página de recursos do Azure AI Search. No painel esquerdo, em Gerenciamento de pesquisa, selecione Indexadores. Selecione o indexador de café recém-criado. 
+| `Gerenciamento de Pesquisa` | Tela de Sucesso |                       
+| ----------------------------------- | ----------------------------------- |
+| <img src="utils/search17.jpeg" alt="Recurso AI Search"/> | <img src="utils/search18.jpeg" alt="Recurso AI Search"/> |
 
 Após o carregamento dos documentos, podemos dar início ao processamento com o `Azure AI Search` para extrair *insights* dos documentos.
 
