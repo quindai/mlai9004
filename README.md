@@ -73,3 +73,7 @@ Inicialmente você precisa importar os `datasets`. Vamos usar os arquivos dispon
 | Carregando Dados para Processamento 3 | Carregando Dados para Processamento 4 |                      
 | ----------------------------------- | ----------------------------------- |
 | <img src="utils/search9.jpeg" alt="Recurso AI Search"/> | <img src="utils/search10.jpeg" alt="Recurso AI Search"/>
+
+Após o carregamento dos documentos, podemos dar início ao processamento com o `Azure AI Search` para extrair *insights* dos documentos.
+
+
