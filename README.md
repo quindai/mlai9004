@@ -49,3 +49,13 @@ Os SLAs são elaborados com base nas necessidades e expectativas do cliente e se
 Os SLAs são fundamentais para estabelecer expectativas claras, garantir a qualidade do serviço e promover a transparência e a confiança entre o provedor de serviço e o cliente. Eles são comumente usados em uma variedade de setores, incluindo tecnologia da informação, telecomunicações, serviços financeiros e muito mais.
 
 :rotating_light: **Importante:** Você precisa provisionar o `Azure AI Services` na mesma localização que o recurso `Azure AI Search` para funcionar.
+
+| Criar o serviço Azure AI Services | Criar o serviço Azure AI Services com o mesmo Resource Group e localizado na mesma Região | Recurso Criado |                      
+| ----------------------------------- | ----------------------------------- | ----------------------------------- |
+| <img src="utils/search5.jpeg" alt="Recurso AI Search"/> | <img src="utils/search51.jpeg" alt="Recurso AI Search"/> | <img src="utils/search52.jpeg" alt="Recurso AI Search"/> |
+
+| Criando o Serviço de Azure Storage | Revisar e criar o recurso |                           
+| ----------------------------------- | ----------------------------------- |
+| <img src="utils/search6.jpeg" alt="Recurso AI Search"/> | <img src="utils/search61.jpeg" alt="Recurso AI Search"/> |
+
+
