@@ -112,4 +112,16 @@ Volte à página de recursos do Azure AI Search. No painel esquerdo, em Gerencia
 
 Após o carregamento dos documentos, podemos dar início ao processamento com o `Azure AI Search` para extrair *insights* dos documentos.
 
+## 3. Enriquecer os dados com habilidades de IA
+No portal do Azure selecione a opção `All services` e busque por `AI Search`, selecione o serviço, no meu caso é `index-quindai`.
+
+| AI Search |                       
+| ----------------------------------- |
+| <img src="utils/search19.jpeg" alt="Recurso AI Search"/> |
+
+O `AI Search` é uma ferramenta incorporada no portal do Azure que oferece uma maneira fácil de validar a qualidade do seu índice de pesquisa. Você pode usar o Search Explorer para escrever consultas e revisar resultados em JSON.
+| Search Explorer |                       
+| ----------------------------------- |
+| <img src="utils/search20.jpeg" alt="Recurso AI Search"/> |
+
 
