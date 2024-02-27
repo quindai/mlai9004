@@ -1,2 +1,1 @@
-# mlai9004
-Mineração de Conhecimento e Inteligência de Documento
+# Mineração de Conhecimento e Inteligência de Documento com Microsoft Azure AI
