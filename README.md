@@ -3,11 +3,11 @@ Vamos explorar o serviço Azure AI Search index (UI) num caso de uso através de
 
 Aqui iremos fazer o seguinte:
 1. [Criar um recurso Azure](#1-criar-um-recurso-azure)
-2. [Extrair dados de um *datasource*](#2-extrair-dados-de-um-datasource)
-3. Enriquecer os dados com habilidades de IA
-4. Usar o indexer do Azure no portal Azure
-5. Realizar busca no indexer criado
-6. Revisar os resultados armazenados numa loja de Conhecimento
+1. [Extrair dados de um *datasource*](#2-extrair-dados-de-um-datasource)
+1. Enriquecer os dados com habilidades de IA
+1. Usar o indexer do Azure no portal Azure
+1. Realizar busca no indexer criado
+1. Revisar os resultados armazenados numa loja de Conhecimento
 
 Os serviços que precisamos para realizar essa tarefa são o **Azure AI Search** para gerenciar a indexação e buscas, o **Azure AI Services** para consumir os serviços de IA que vão enriquecer os dados e o **Storage Account** que será o nosso *container* de documentos.
 
@@ -74,6 +74,7 @@ Inicialmente você precisa importar os `datasets`. Vamos usar os arquivos dispon
 | ----------------------------------- | ----------------------------------- |
 | <img src="utils/search9.jpeg" alt="Recurso AI Search"/> | <img src="utils/search10.jpeg" alt="Recurso AI Search"/>
 
+## 3. Enriquecer os dados com habilidades de IA
 Precisamos preparar os documentos para processamento. O portal do Azure fornece um assistente de importação de dados. Com este assistente, você pode criar automaticamente um índice e um indexador para fontes de dados suportadas. Você usará o assistente para criar um índice e importar seus documentos de pesquisa do armazenamento para o índice do Azure AI Search.
 | Navegue até o Azure AI Search como na Imagem | Em `Datasource` selecione a opção `Azure Blob Storage` |                      
 | ----------------------------------- | ----------------------------------- |
@@ -93,6 +94,7 @@ Selecione **Azure blob projections: Document**. Uma configuração para o nome d
 | ----------------------------------- |
 | <img src="utils/search15.jpeg" alt="Recurso AI Search"/> |
 
+## 4. Usar o indexer do Azure no portal Azure
 Selecione Próximo: Personalizar índice de destino. Altere o nome do índice para `coffee-index`.
 
 Certifique-se de que a chave esteja definida como metadata_storage_path. Deixe o nome do sugeridor em branco e o modo de pesquisa preenchido automaticamente.
@@ -112,7 +114,7 @@ Volte à página de recursos do Azure AI Search. No painel esquerdo, em Gerencia
 
 Após o carregamento dos documentos, podemos dar início ao processamento com o `Azure AI Search` para extrair *insights* dos documentos.
 
-## 3. Enriquecer os dados com habilidades de IA
+## 5. Realizar busca no indexer criado
 No portal do Azure selecione a opção `All services` e busque por `AI Search`, selecione o serviço, no meu caso é `index-quindai`.
 
 | AI Search |                       
@@ -124,4 +126,9 @@ O `AI Search` é uma ferramenta incorporada no portal do Azure que oferece uma m
 | ----------------------------------- |
 | <img src="utils/search20.jpeg" alt="Recurso AI Search"/> |
 
+Você poderá explorar o conteúdo dos documentos através dos marcadores em json realizando requisições via REST API.
+| Tela de busca nos conteúdos | Tela de busca nos conteúdos com marcadores selecionados |                       
+| ----------------------------------- | ----------------------------------- |
+| <img src="utils/search21.png" alt="Recurso AI Search"/> | <img src="utils/search22.png" alt="Recurso AI Search"/> |
 
+## 6. Revisar os resultados armazenados numa loja de Conhecimento
