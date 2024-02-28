@@ -4,11 +4,11 @@ Vamos explorar o serviço Azure AI Search index (UI) num caso de uso através de
 Aqui iremos fazer o seguinte:
 1. [Criar um recurso Azure](#1-criar-um-recurso-azure)
 1. [Extrair dados de um *datasource*](#2-extrair-dados-de-um-datasource)
-1. Enriquecer os dados com habilidades de IA
-1. Usar o indexer do Azure no portal Azure
-1. Realizar busca no indexer criado
-1. Revisar os resultados armazenados numa loja de Conhecimento
-
+1. [Enriquecer os dados com habilidades de IA](#3-enriquecer-os-dados-com-habilidades-de-ia)
+1. [Usar o indexer do Azure no portal Azure](#4-usar-o-indexer-do-azure-no-portal-azure)
+1. [Realizar busca no indexer criado](#5-realizar-busca-no-indexer-criado)
+1. [Revisar os resultados armazenados numa loja de Conhecimento
+](#6-revisar-os-resultados-armazenados-numa-loja-de-conhecimento)
 Os serviços que precisamos para realizar essa tarefa são o **Azure AI Search** para gerenciar a indexação e buscas, o **Azure AI Services** para consumir os serviços de IA que vão enriquecer os dados e o **Storage Account** que será o nosso *container* de documentos.
 
 ## 1. Criar um recurso Azure
