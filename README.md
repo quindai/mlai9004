@@ -132,3 +132,7 @@ Você poderá explorar o conteúdo dos documentos através dos marcadores em jso
 | <img src="utils/search21.png" alt="Recurso AI Search"/> | <img src="utils/search22.png" alt="Recurso AI Search"/> |
 
 ## 6. Revisar os resultados armazenados numa loja de Conhecimento
+Finalmente, você poderá visualizar os dados no `Storage accounts`, selecione o arquivo `***-image-projection`, no meu caso é `coffe-skillset-image-projection`. Entre em qualquer pasta e clique em um arquivo de imagem, para visualizar o arquivo, na tela que se abrir, clica em `Edit`.
+| Visualização de Artefatos 1 | Visualização de Artefatos 2 |                       
+| ----------------------------------- | ----------------------------------- |
+| <img src="utils/search23.jpeg" alt="Recurso AI Search"/> | <img src="utils/search24.jpeg" alt="Recurso AI Search"/> |
